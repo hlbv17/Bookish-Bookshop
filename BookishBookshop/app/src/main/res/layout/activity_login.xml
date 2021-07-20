@@ -23,42 +23,55 @@
             android:layout_marginLeft="40dp"
             android:layout_marginTop="400dp"
             android:layout_marginRight="40dp"
+            android:background="@drawable/borde_redondoG"
+            android:drawableStart="@drawable/google"
+            android:drawableLeft="@drawable/google"
+            android:drawablePadding="6dp"
             android:paddingStart="20dp"
             android:paddingLeft="80dp"
             android:paddingEnd="20dp"
             android:paddingRight="80dp"
             android:text="@string/txtGoogle"
-            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintBottom_toTopOf="@+id/btnFb"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnFb"
             android:layout_width="320dp"
             android:layout_height="60dp"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="40dp"
             android:layout_marginBottom="0dp"
+            android:background="@drawable/borde_redondoF"
+            android:drawableStart="@drawable/fb"
+            android:drawableLeft="@drawable/fb"
             android:paddingStart="20dp"
             android:paddingLeft="80dp"
             android:paddingEnd="20dp"
             android:paddingRight="80dp"
-            android:text="@string/txtFb" />
+            android:text="@string/txtFb"
+            android:textColor="#FFFF" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnTwt"
             android:layout_width="320dp"
             android:layout_height="60dp"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="40dp"
+            android:background="@drawable/borde_redondoT"
+            android:drawableStart="@drawable/twitter"
+            android:drawableLeft="@drawable/twitter"
+            android:drawablePadding="6dp"
             android:paddingStart="20dp"
             android:paddingLeft="80dp"
             android:paddingEnd="20dp"
             android:paddingRight="80dp"
-            android:text="@string/txtTwt" />
+            android:text="@string/txtTwt"
+            android:textColor="#FFFF" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
