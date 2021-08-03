@@ -1,9 +1,346 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo"
     tools:context=".MainScreen">
 
-</android.support.constraint.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo">
+
+        <LinearLayout
+            android:id="@+id/ly1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnMenu"
+                android:layout_width="78dp"
+                android:layout_height="63dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/boton_redondo_menu"
+                android:drawableStart="@drawable/menu"
+                android:drawableLeft="@drawable/menu"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" />
+
+            <VideoView
+                android:id="@+id/vAnuncio"
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:contentDescription="@string/txtSugerencia">
+
+            </VideoView>
+
+            <TextView
+                android:id="@+id/txtSugerencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/txtSugerencia"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp"
+                app:fontFamily="@font/fredoka_one" />
+
+            <HorizontalScrollView
+                android:id="@+id/hscrv1"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:layout_marginTop="10dp"
+                android:background="#4895AF">
+
+                <LinearLayout
+                    android:id="@+id/ly2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn1"
+                        style="@style/Widget.AppCompat.Button"
+                        android:layout_width="125dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/book_alma" />
+
+                    <Button
+                        android:id="@+id/btn2"
+                        style="@style/Widget.AppCompat.Button"
+                        android:layout_width="125dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/book_silencio"
+                        android:contentDescription="@string/txtSugerencia" />
+
+                    <Button
+                        android:id="@+id/btn3"
+                        style="@style/Widget.AppCompat.Button"
+                        android:layout_width="125dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/book_mito"
+                        android:contentDescription="@string/txtSugerencia" />
+
+                    <Button
+                        android:id="@+id/btn4"
+                        style="@style/Widget.AppCompat.Button"
+                        android:layout_width="125dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/book_fantasma"
+                        android:contentDescription="@string/txtSugerencia" />
+
+                    <Button
+                        android:id="@+id/btn5"
+                        style="@style/Widget.AppCompat.Button"
+                        android:layout_width="125dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/book_soledad"
+                        android:contentDescription="@string/txtSugerencia" />
+
+                    <Button
+                        android:id="@+id/btn6"
+                        style="@style/Widget.AppCompat.Button"
+                        android:layout_width="125dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/book_lider"
+                        android:contentDescription="@string/txtSugerencia" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/txtCategorias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/txtCategoria"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp"
+                app:fontFamily="@font/fredoka_one" />
+
+            <HorizontalScrollView
+                android:id="@+id/hscrv2"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="#F0AD50">
+
+                <LinearLayout
+                    android:id="@+id/ly3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/btn7"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="125dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/cat_historia"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="172dp"
+                            android:background="#4F6C41"
+                            android:gravity="center"
+                            android:text="@string/txtHistoria"
+                            android:textColor="#ffff"
+                            android:textSize="20sp"
+                            app:fontFamily="@font/fredoka_one" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn8"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="125dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/cat_geografia"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="172dp"
+                            android:background="#6C4141"
+                            android:gravity="center"
+                            android:text="@string/txtGeo"
+                            android:textColor="#ffff"
+                            android:textSize="20sp"
+                            app:fontFamily="@font/fredoka_one" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/btn9"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="125dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/cat_artes"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="172dp"
+                            android:background="#AF9548"
+                            android:gravity="center"
+                            android:text="@string/txtArte"
+                            android:textColor="#ffff"
+                            android:textSize="20sp"
+                            app:fontFamily="@font/fredoka_one" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn10"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="125dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/cat_filosofia"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="172dp"
+                            android:background="#5885BC"
+                            android:gravity="center"
+                            android:text="@string/txtFilosofia"
+                            android:textColor="#ffff"
+                            android:textSize="20sp"
+                            app:fontFamily="@font/fredoka_one" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn11"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="125dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/cat_literatura"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="172dp"
+                            android:background="#C78F8F"
+                            android:gravity="center"
+                            android:text="@string/txtLiteratura"
+                            android:textColor="#ffff"
+                            android:textSize="20sp"
+                            app:fontFamily="@font/fredoka_one"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn12"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="125dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/cat_mate"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="172dp"
+                            android:background="#01705F"
+                            android:gravity="center"
+                            android:text="@string/txtMates"
+                            android:textColor="#ffff"
+                            android:textSize="20sp"
+                            app:fontFamily="@font/fredoka_one" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn13"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="125dp"
+                        android:layout_height="200dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/cat_religion"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="172dp"
+                            android:background="#25467E"
+                            android:gravity="center"
+                            android:text="@string/txtReligion"
+                            android:textColor="#ffff"
+                            android:textSize="20sp"
+                            app:fontFamily="@font/fredoka_one" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

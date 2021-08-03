@@ -1,8 +1,24 @@
 <resources>
-    <string name = "app_name">BookishBookshop</string>
-    <string name = "txtSlogan">A PLACE THAT\n CAPTIVE YOU</string>
-    <string name = "txtMarca">Athena Inc.\n ©2021 (–, &#8211;) 2022 All rights reserved</string>
-    <string name = "txtGoogle"> Conéctate con \n Google</string>
-    <string name = "txtFb"> Conéctate con \n Facebook</string>
-    <string name = "txtTwt"> Conéctate con \n Twitter</string>
+    <string name="app_name">BookishBookshop</string>
+    <string name="txtSlogan">A PLACE THAT\n CAPTIVE YOU</string>
+    <string name="txtMarca">Athena Inc.\n ©2021 &#8211; 2022 All rights reserved</string>
+    <string name="txtGoogle">Conéctate con \n Google</string>
+    <string name="txtFb">Conéctate con \n Facebook</string>
+    <string name="txtTwt">Conéctate con \n Twitter</string>
+    <string name="txtSugerencia">Sugerencias</string>
+    <string name="txtCategoria">Categorías</string>
+    <string name="txtHistoria">Historia</string>
+    <string name="txtGeo">Geografía</string>
+    <string name="txtArte">Artes</string>
+    <string name="txtFilosofia">Filosofía</string>
+    <string name="txtLiteratura">Literatura</string>
+    <string name="txtMates">Matemáticas</string>
+    <string name="txtReligion">Religión</string>
+    <string name="txtPerfil">Mi Perfil</string>
+    <string name="txtTarjeta">Mi Tarjeta</string>
+    <string name="txtCompra">Mi Compra</string>
+    <string name="txtQr">Código QR</string>
+    <string name="txtFav">Mis Frases\n Favoritas</string>
+    <string name="txtCategorias">Categorías</string>
+    <string name="txtDeseos">Lista de deseos</string>
 </resources>
