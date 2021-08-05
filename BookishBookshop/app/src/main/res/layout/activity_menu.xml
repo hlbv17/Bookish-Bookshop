@@ -15,7 +15,7 @@
         tools:layout_editor_absoluteY="0dp">
 
         <LinearLayout
-            android:layout_width="217dp"
+            android:layout_width="205dp"
             android:layout_height="match_parent"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -140,7 +140,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="190dp"
+                android:layout_width="170dp"
                 android:layout_height="120dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
