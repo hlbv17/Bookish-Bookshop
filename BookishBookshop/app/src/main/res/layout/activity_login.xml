@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/degradado"
     tools:context=".Login">
 
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="757dp"
+        android:background="@drawable/degradado"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
@@ -24,60 +25,198 @@
             android:contentDescription="@string/txtMarca"
             app:srcCompat="@drawable/bookishb" />
 
-        <Button
-            android:id="@+id/btnGoogle"
-            android:layout_width="320dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="90dp"
-            android:layout_marginRight="40dp"
-            android:background="@drawable/borde_redondog"
-            android:drawableStart="@drawable/google"
-            android:drawableLeft="@drawable/google"
-            android:paddingStart="20dp"
-            android:paddingLeft="80dp"
-            android:paddingEnd="20dp"
-            android:paddingRight="80dp"
-            android:text="@string/txtGoogle"
-            app:layout_constraintBottom_toTopOf="@+id/btnFb"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/txtSesion"
+                android:textColor="#ffff"
+                android:textSize="18sp"
+                app:fontFamily="@font/fresca" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@android:color/background_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnGoogle"
+                style="?attr/buttonBarStyle"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/borde_redondog"
+                android:drawableStart="@drawable/google"
+                android:drawableLeft="@drawable/google"
+                android:paddingStart="20dp"
+                android:paddingLeft="80dp"
+                android:paddingEnd="20dp"
+                android:paddingRight="80dp"
+                app:layout_constraintBottom_toTopOf="@+id/btnFb"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btnFb"
+                style="?attr/buttonBarStyle"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/borde_redondof"
+                android:drawableStart="@drawable/fb"
+                android:drawableLeft="@drawable/fb"
+                android:paddingStart="20dp"
+                android:paddingLeft="80dp"
+                android:paddingEnd="20dp"
+                android:paddingRight="80dp"
+                android:textColor="#FFFF" />
+
+            <Button
+                android:id="@+id/btnTwt"
+                style="?attr/buttonBarStyle"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/borde_redondot"
+                android:drawableStart="@drawable/twitter"
+                android:drawableLeft="@drawable/twitter"
+                android:paddingStart="20dp"
+                android:paddingLeft="80dp"
+                android:paddingEnd="20dp"
+                android:paddingRight="80dp"
+                android:textColor="#FFFF" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/dvd3"
+                android:layout_width="140dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/txtOr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/txtOr"
+                android:textColor="#ffff"
+                android:textSize="18sp"
+                app:fontFamily="@font/fresca" />
+
+            <View
+                android:id="@+id/dvd4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@android:color/background_light" />
+        </LinearLayout>
+
 
         <Button
-            android:id="@+id/btnFb"
-            android:layout_width="320dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginBottom="0dp"
-            android:background="@drawable/borde_redondof"
-            android:drawableStart="@drawable/fb"
-            android:drawableLeft="@drawable/fb"
-            android:paddingStart="20dp"
-            android:paddingLeft="80dp"
-            android:paddingEnd="20dp"
-            android:paddingRight="80dp"
-            android:text="@string/txtFb"
-            android:textColor="#FFFF" />
+            android:id="@+id/btnCorreo"
+            style="?attr/buttonBarStyle"
+            android:layout_width="297dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/continue_correo"
+            android:text="@string/txtSesion2"
+            android:textAllCaps="false"
+            android:textColor="#ffff"
+            android:textSize="18sp" />
 
-        <Button
-            android:id="@+id/btnTwt"
-            android:layout_width="320dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginRight="40dp"
-            android:background="@drawable/borde_redondot"
-            android:drawableStart="@drawable/twitter"
-            android:drawableLeft="@drawable/twitter"
-            android:paddingStart="20dp"
-            android:paddingLeft="80dp"
-            android:paddingEnd="20dp"
-            android:paddingRight="80dp"
-            android:text="@string/txtTwt"
-            android:textColor="#FFFF" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/txtRegistarse"
+                android:textColor="#ffff"
+                android:textSize="14sp"
+                app:fontFamily="@font/fresca" />
+
+            <TextView
+                android:id="@+id/txtRegistrar"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="70dp"
+                android:layout_marginRight="70dp"
+                android:text="@string/txtRegistrarse2"
+                android:textColor="@color/colorAquaClarito"
+                android:textSize="14sp"
+                app:fontFamily="@font/fresca" />
+        </LinearLayout>
 
     </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

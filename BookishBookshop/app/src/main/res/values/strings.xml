@@ -2,9 +2,6 @@
     <string name="app_name">BookishBookshop</string>
     <string name="txtSlogan">A PLACE THAT\n CAPTIVE YOU</string>
     <string name="txtMarca">Athena Inc.\n ©2021 &#8211; 2022 All rights reserved</string>
-    <string name="txtGoogle">Conéctate con \n Google</string>
-    <string name="txtFb">Conéctate con \n Facebook</string>
-    <string name="txtTwt">Conéctate con \n Twitter</string>
     <string name="txtSugerencia">Sugerencias</string>
     <string name="txtCategoria">Categorías</string>
     <string name="txtHistoria">Historia</string>
@@ -21,4 +18,39 @@
     <string name="txtFav">Mis Frases\n Favoritas</string>
     <string name="txtCategorias">Categorías</string>
     <string name="txtDeseos">Lista de deseos</string>
+    <string name="txtSesion">Inicia sesión con</string>
+    <string name="txtOr">O</string>
+    <string name="txtSesion2">Continuar con\n correo electrónico</string>
+    <string name="txtRegistarse">¿No tienes una cuenta?</string>
+    <string name="txtRegistrarse2"><u>Regístrate aquí</u></string>
+    <string name="txtOlvido"><u>¿Olvidaste tu contraseña?</u></string>
+    <string name="txtSignIn">Inicia sesión</string>
+    <string name="txtSignUp">Crea tu cuenta</string>
+    <string name="txtId">Tipo de\n indentificación</string>
+    <string-array name="ID">
+        <item>Seleccione</item>
+        <item>Cédula</item>
+        <item>Pasaporte</item>
+    </string-array>
+    <string name="txtNombre">Nombre</string>
+    <string name="txtCorreo">Correo electrónico</string>
+    <string name="txtContrasena">Contraseña</string>
+    <string name="txtSexo">Sexo</string>
+    <string name="txtDireccion">Dirección</string>
+    <string name="txtEdad">Edad</string>
+    <string name="txtEstado">Estado civil</string>
+    <string name="txtCelular">Celular</string>
+    <string name="txtTerminos">Acepto <u>términos y condiciones</u></string>
+    <string name="txtNoticias">Quiero recibir noticias sobre la app</string>
+    <string name="txtListo">Listo</string>
+    <string name="txtCancelar">Cancelar</string>
+    <string name="txtF">Femenino</string>
+    <string name="txtM">Masculino</string>
+    <string-array name="estadoCivil">
+        <item>Seleccione</item>
+        <item>Soltero</item>
+        <item>Casado</item>
+        <item>Divorciado</item>
+        <item>Viudo</item>
+    </string-array>
 </resources>

@@ -9,7 +9,22 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4546ad9d-8e66-4230-94de-193f7ca45cf7" name="Default Changelist" comment="" />
+    <list default="true" id="4546ad9d-8e66-4230-94de-193f7ca45cf7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BookishBookshop/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BookishBookshop/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookishBookshop/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BookishBookshop/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookishBookshop/app/src/main/java/com/example/bookishbookshop/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BookishBookshop/app/src/main/java/com/example/bookishbookshop/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookishBookshop/app/src/main/res/drawable/borde_redondof.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BookishBookshop/app/src/main/res/drawable/borde_redondof.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookishBookshop/app/src/main/res/drawable/borde_redondog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BookishBookshop/app/src/main/res/drawable/borde_redondog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookishBookshop/app/src/main/res/drawable/borde_redondot.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BookishBookshop/app/src/main/res/drawable/borde_redondot.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookishBookshop/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BookishBookshop/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookishBookshop/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookishBookshop/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookishBookshop/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookishBookshop/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BookishBookshop/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookishBookshop/app/src/main/res/values/preloaded_fonts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BookishBookshop/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookishBookshop/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BookishBookshop/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookishBookshop/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BookishBookshop/app/src/main/res/values/styles.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +42,13 @@
     <session id="571976478">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.30" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -71,7 +87,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,6 +96,9 @@
         <option value="layoutResourceFile" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -103,6 +122,7 @@
     <option name="width" value="696" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -175,32 +195,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BookishBookshop" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="BookishBookshop" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="generatedJava" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="BookishBookshop" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="generatedJava" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="bookishbookshop" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookishBookshop" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane" />
     </panes>
   </component>
@@ -209,7 +203,7 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="ZE2229BMN4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../BookishBookshop2/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BookishBookshop/app" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -301,7 +295,7 @@
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2636778" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26307923" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -330,80 +324,19 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../settings.gradle" />
+    <entry file="file://$PROJECT_DIR$/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/../build.gradle" />
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/MainScreen.java" />
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/main_screen.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Splash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/splash.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/src/main/java/com/example/bookishbookshop/Login.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/generated/source/buildConfig/debug/com/example/bookishbookshop/BuildConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/src/main/java/com/example/bookishbookshop/Splash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Splash.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/splash.xml" />
+    <entry file="file://$PROJECT_DIR$/gradle/src/main/java/com/example/bookishbookshop/Login.java" />
+    <entry file="file://$PROJECT_DIR$/build/generated/source/buildConfig/debug/com/example/bookishbookshop/BuildConfig.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/../.gitignore" />
+    <entry file="file://$PROJECT_DIR$/gradle/src/main/java/com/example/bookishbookshop/Splash.java" />
   </component>
 </project>
