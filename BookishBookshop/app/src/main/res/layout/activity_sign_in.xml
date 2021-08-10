@@ -82,7 +82,8 @@
                 android:layout_marginRight="50dp"
                 android:text="@string/txtSignIn"
                 android:textColor="#ffff"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                app:fontFamily="@font/fresca" />
         </LinearLayout>
 
     </LinearLayout>

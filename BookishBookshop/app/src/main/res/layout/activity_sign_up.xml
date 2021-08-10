@@ -47,31 +47,33 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="80dp"
+                        android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:orientation="horizontal">
 
                         <TextView
                             android:id="@+id/textView5"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:layout_marginStart="30dp"
                             android:layout_marginLeft="30dp"
                             android:layout_marginTop="20dp"
                             android:text="@string/txtId"
                             android:textColor="#ffff"
-                            android:textSize="20sp"
+                            android:textSize="22sp"
                             app:fontFamily="@font/fresca" />
 
                         <Spinner
                             android:id="@+id/spinner"
                             android:layout_width="150dp"
-                            android:layout_height="40dp"
+                            android:layout_height="55dp"
                             android:layout_marginStart="40dp"
                             android:layout_marginLeft="40dp"
                             android:layout_marginTop="25dp"
                             android:background="@drawable/registro_campos"
-                            android:entries="@array/ID" />
+                            android:entries="@array/ID"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp" />
 
                     </LinearLayout>
 
@@ -90,14 +92,15 @@
                             android:layout_marginEnd="10dp"
                             android:layout_marginRight="10dp"
                             android:text="Cédula"
+                            android:inputType="number"
                             android:textColor="#ffff"
-                            android:textSize="20sp"
+                            android:textSize="22sp"
                             app:fontFamily="@font/fresca" />
 
                         <EditText
                             android:id="@+id/txtId"
                             android:layout_width="wrap_content"
-                            android:layout_height="40dp"
+                            android:layout_height="55dp"
                             android:layout_marginStart="50dp"
                             android:layout_marginLeft="50dp"
                             android:layout_marginTop="20dp"
@@ -106,6 +109,9 @@
                             android:ems="10"
                             android:importantForAutofill="no"
                             android:inputType="textPersonName"
+                            android:paddingStart="10dp"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
                             tools:ignore="LabelFor"
                             tools:targetApi="o" />
 
@@ -127,13 +133,13 @@
                             android:layout_marginRight="40dp"
                             android:text="@string/txtNombre"
                             android:textColor="#ffff"
-                            android:textSize="20sp"
+                            android:textSize="22sp"
                             app:fontFamily="@font/fresca" />
 
                         <EditText
                             android:id="@+id/txtNombre"
                             android:layout_width="wrap_content"
-                            android:layout_height="40dp"
+                            android:layout_height="55dp"
                             android:layout_marginStart="5dp"
                             android:layout_marginLeft="5dp"
                             android:layout_marginTop="20dp"
@@ -141,6 +147,9 @@
                             android:ems="10"
                             android:importantForAutofill="no"
                             android:inputType="textPersonName"
+                            android:paddingStart="10dp"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
                             tools:ignore="LabelFor"
                             tools:targetApi="o" />
 
@@ -148,7 +157,7 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
                         <TextView
@@ -162,26 +171,32 @@
                             android:layout_marginRight="70dp"
                             android:text="@string/txtSexo"
                             android:textColor="#ffff"
-                            android:textSize="20sp"
+                            android:textSize="22sp"
                             app:fontFamily="@font/fresca" />
 
-                        <RadioButton
-                            android:id="@+id/rdbF"
-                            android:layout_width="wrap_content"
-                            android:layout_height="40dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginEnd="30dp"
-                            android:layout_marginRight="30dp"
-                            android:text="@string/txtF"
-                            android:textColor="#ffff" />
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
 
-                        <RadioButton
-                            android:id="@+id/rdbM"
-                            android:layout_width="wrap_content"
-                            android:layout_height="40dp"
-                            android:layout_marginTop="20dp"
-                            android:text="@string/txtM"
-                            android:textColor="#ffff" />
+                            <RadioButton
+                                android:id="@+id/rdbF"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="30dp"
+                                android:layout_marginRight="30dp"
+                                android:text="@string/txtF"
+                                android:textColor="#ffff"
+                                android:textSize="20sp" />
+
+                            <RadioButton
+                                android:id="@+id/rdbM"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:text="@string/txtM"
+                                android:textColor="#ffff"
+                                android:textSize="20sp" />
+                        </RadioGroup>
 
                     </LinearLayout>
 
@@ -197,17 +212,18 @@
                             android:layout_marginStart="30dp"
                             android:layout_marginLeft="30dp"
                             android:layout_marginTop="20dp"
-                            android:layout_marginEnd="70dp"
-                            android:layout_marginRight="70dp"
+                            android:layout_marginEnd="80dp"
+                            android:layout_marginRight="80dp"
                             android:text="@string/txtEdad"
+                            android:inputType="number"
                             android:textColor="#ffff"
-                            android:textSize="20sp"
+                            android:textSize="22sp"
                             app:fontFamily="@font/fresca" />
 
                         <EditText
                             android:id="@+id/txtEdad"
-                            android:layout_width="50dp"
-                            android:layout_height="40dp"
+                            android:layout_width="70dp"
+                            android:layout_height="55dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginEnd="40dp"
                             android:layout_marginRight="40dp"
@@ -215,6 +231,9 @@
                             android:ems="10"
                             android:importantForAutofill="no"
                             android:inputType="number"
+                            android:paddingStart="10dp"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
                             tools:ignore="LabelFor"
                             tools:targetApi="o" />
 
@@ -232,24 +251,25 @@
                             android:layout_marginStart="30dp"
                             android:layout_marginLeft="30dp"
                             android:layout_marginTop="20dp"
-                            android:layout_marginEnd="40dp"
-                            android:layout_marginRight="40dp"
+                            android:layout_marginEnd="60dp"
+                            android:layout_marginRight="60dp"
                             android:text="@string/txtCelular"
                             android:textColor="#ffff"
-                            android:textSize="20sp"
+                            android:textSize="22sp"
                             app:fontFamily="@font/fresca" />
 
                         <EditText
                             android:id="@+id/txtCelular"
                             android:layout_width="wrap_content"
-                            android:layout_height="40dp"
-                            android:layout_marginStart="15dp"
-                            android:layout_marginLeft="15dp"
+                            android:layout_height="55dp"
                             android:layout_marginTop="20dp"
                             android:background="@drawable/registro_campos"
                             android:ems="10"
                             android:importantForAutofill="no"
                             android:inputType="number"
+                            android:paddingStart="10dp"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
                             tools:ignore="LabelFor"
                             tools:targetApi="o" />
                     </LinearLayout>
@@ -270,27 +290,31 @@
                             android:layout_marginRight="30dp"
                             android:text="@string/txtDireccion"
                             android:textColor="#ffff"
-                            android:textSize="20sp"
+                            android:textSize="22sp"
                             app:fontFamily="@font/fresca" />
 
                         <EditText
                             android:id="@+id/txtDireccion"
                             android:layout_width="250dp"
-                            android:layout_height="40dp"
+                            android:layout_height="55dp"
                             android:layout_marginStart="10dp"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="20dp"
+                            android:layout_marginRight="10dp"
                             android:background="@drawable/registro_campos"
                             android:ems="10"
                             android:importantForAutofill="no"
                             android:inputType="textPersonName"
+                            android:paddingStart="10dp"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
                             tools:ignore="LabelFor"
                             tools:targetApi="o" />
                     </LinearLayout>
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="61dp"
+                        android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
                         <TextView
@@ -300,20 +324,22 @@
                             android:layout_marginStart="30dp"
                             android:layout_marginLeft="30dp"
                             android:layout_marginTop="20dp"
-                            android:layout_marginEnd="20dp"
-                            android:layout_marginRight="20dp"
+                            android:layout_marginEnd="30dp"
+                            android:layout_marginRight="30dp"
                             android:text="@string/txtEstado"
                             android:textColor="#ffff"
-                            android:textSize="20sp"
+                            android:textSize="22sp"
                             app:fontFamily="@font/fresca" />
 
                         <Spinner
                             android:id="@+id/spinner2"
                             android:layout_width="150dp"
-                            android:layout_height="40dp"
+                            android:layout_height="55dp"
                             android:layout_marginTop="20dp"
                             android:background="@drawable/registro_campos"
-                            android:entries="@array/estadoCivil" />
+                            android:entries="@array/estadoCivil"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp" />
                     </LinearLayout>
 
                     <CheckBox
@@ -325,7 +351,8 @@
                         android:layout_weight="1"
                         android:text="@string/txtTerminos"
                         android:textColor="#ffff"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                        android:layout_marginStart="20dp" />
 
                     <CheckBox
                         android:id="@+id/chkbNoticias"
@@ -336,20 +363,23 @@
                         android:layout_weight="1"
                         android:text="@string/txtNoticias"
                         android:textColor="#ffff"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                        android:layout_marginStart="20dp" />
 
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginBottom="40dp"
                         android:orientation="horizontal">
 
                         <LinearLayout
                             android:layout_width="170dp"
                             android:layout_height="50dp"
-                            android:layout_marginStart="30dp"
-                            android:layout_marginLeft="30dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginLeft="20dp"
                             android:layout_marginTop="50dp"
+                            android:layout_marginEnd="20dp"
                             android:layout_marginRight="20dp"
                             android:background="@drawable/continue_correo"
                             android:orientation="horizontal">
@@ -358,12 +388,15 @@
                                 android:id="@+id/btnListo"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:layout_marginStart="60dp"
                                 android:layout_marginLeft="60dp"
                                 android:layout_marginTop="10dp"
+                                android:layout_marginEnd="50dp"
                                 android:layout_marginRight="50dp"
                                 android:text="@string/txtListo"
                                 android:textColor="#ffff"
-                                android:textSize="18sp" />
+                                android:textSize="22sp"
+                                app:fontFamily="@font/fresca" />
 
                         </LinearLayout>
 
@@ -373,20 +406,22 @@
                             android:layout_marginStart="10dp"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="50dp"
+                            android:layout_marginEnd="30dp"
                             android:layout_marginRight="30dp"
                             android:background="@drawable/continue_correo"
                             android:orientation="horizontal">
 
                             <TextView
                                 android:id="@+id/btnCancelar"
-                                android:layout_width="wrap_content"
+                                android:layout_width="100dp"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="50dp"
                                 android:layout_marginTop="10dp"
                                 android:layout_marginRight="50dp"
                                 android:text="@string/txtCancelar"
                                 android:textColor="#ffff"
-                                android:textSize="18sp" />
+                                android:textSize="22sp"
+                                app:fontFamily="@font/fresca" />
                         </LinearLayout>
 
                     </LinearLayout>

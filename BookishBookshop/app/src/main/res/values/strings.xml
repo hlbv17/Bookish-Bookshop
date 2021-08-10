@@ -26,7 +26,7 @@
     <string name="txtOlvido"><u>¿Olvidaste tu contraseña?</u></string>
     <string name="txtSignIn">Inicia sesión</string>
     <string name="txtSignUp">Crea tu cuenta</string>
-    <string name="txtId">Tipo de\n indentificación</string>
+    <string name="txtId">Tipo de\nindentificación</string>
     <string-array name="ID">
         <item>Seleccione</item>
         <item>Cédula</item>
