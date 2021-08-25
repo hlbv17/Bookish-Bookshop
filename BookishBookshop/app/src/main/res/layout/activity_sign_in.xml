@@ -12,6 +12,12 @@
         android:background="@drawable/degradado"
         android:orientation="vertical">
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher" />
+
         <EditText
             android:id="@+id/editText"
             android:layout_width="300dp"
@@ -22,12 +28,12 @@
             android:layout_marginRight="55dp"
             android:background="@drawable/registro_campos"
             android:ems="10"
+            android:hint="@string/txtCorreo"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
             android:paddingStart="20dp"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:text="@string/txtCorreo"
             android:textColor="@color/colorGris"
             tools:ignore="LabelFor"
             tools:targetApi="o" />
@@ -42,11 +48,11 @@
             android:layout_marginRight="55dp"
             android:background="@drawable/registro_campos"
             android:ems="10"
+            android:hint="@string/txtContrasena"
             android:importantForAutofill="no"
             android:inputType="textPassword"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:text="@string/txtContrasena"
             android:textColor="@color/colorGris"
             tools:ignore="LabelFor"
             tools:targetApi="o" />

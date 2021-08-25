@@ -10,7 +10,6 @@
     <item android:right="4dp" android:bottom="4dp">
         <shape android:shape="rectangle">
             <corners android:radius="15dip" />
-            <!--<stroke android:width="3dip" android:color="#ffff" />-->
             <solid android:color="@color/colorPrimary" />
         </shape>
     </item>

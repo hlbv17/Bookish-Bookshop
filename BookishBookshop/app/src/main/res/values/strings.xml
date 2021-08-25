@@ -26,15 +26,16 @@
     <string name="txtOlvido"><u>¿Olvidaste tu contraseña?</u></string>
     <string name="txtSignIn">Inicia sesión</string>
     <string name="txtSignUp">Crea tu cuenta</string>
-    <string name="txtId">Tipo de\nindentificación</string>
+    <string name="txtId">Tipo de indentificación</string>
     <string-array name="ID">
         <item>Seleccione</item>
         <item>Cédula</item>
         <item>Pasaporte</item>
     </string-array>
-    <string name="txtNombre">Nombre</string>
+    <string name="txtNombre">Nombres</string>
     <string name="txtCorreo">Correo electrónico</string>
     <string name="txtContrasena">Contraseña</string>
+    <string name="txtContrasena2">Confirmar contraseña</string>
     <string name="txtSexo">Sexo</string>
     <string name="txtDireccion">Dirección</string>
     <string name="txtEdad">Edad</string>
@@ -46,6 +47,7 @@
     <string name="txtCancelar">Cancelar</string>
     <string name="txtF">Femenino</string>
     <string name="txtM">Masculino</string>
+    <string name="txtNA">Prefiero no decirlo</string>
     <string-array name="estadoCivil">
         <item>Seleccione</item>
         <item>Soltero</item>
@@ -53,4 +55,12 @@
         <item>Divorciado</item>
         <item>Viudo</item>
     </string-array>
+    <string name="txtAnterior">Anterior</string>
+    <string name="txtCrear">Crear</string>
+    <string name="txtSiguiente">Siguiente</string>
+    <string name="txtTipNom">Este nombre aparecerá en tu perfil Bookish.</string>
+    <string name="txtTipPswd">Ingrese una contraseña para iniciar sesión.</string>
+    <string name="txtExitoCuenta">Cuenta creada\ncorrectamente</string>
+    <string name="txtN1">1/2</string>
+    <string name="txtN2">2/2</string>
 </resources>
