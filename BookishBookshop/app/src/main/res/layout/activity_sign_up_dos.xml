@@ -4,388 +4,440 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".SignUpTwo">
 
-    <LinearLayout
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/txtSignUp"
+        android:textColor="#ffff"
+        android:textSize="24sp"
+        app:fontFamily="@font/fredoka_one"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <TextView
+        android:id="@+id/textView16"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/colorPrimary"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="right"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/txtN2"
+        android:textColor="#ffff"
+        android:textSize="24sp"
+        app:fontFamily="@font/fredoka_one"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65"
+        tools:layout_editor_absoluteX="0dp" />
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:contentDescription="@string/app_name"
-            app:srcCompat="@mipmap/ic_launcher" />
 
-        <LinearLayout
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="612dp"
+        android:layout_marginTop="128dp"
+        android:background="@drawable/borde_scroll"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="444dp">
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/textView11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="110dp"
-                android:layout_marginLeft="110dp"
-                android:layout_marginBottom="20dp"
-                android:text="@string/txtSignUp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="840dp"
+                android:text="@string/txtEstado"
                 android:textColor="#ffff"
-                android:textSize="24sp"
-                app:fontFamily="@font/fredoka_one" />
+                android:textSize="22sp"
+                app:fontFamily="@font/fresca"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.166"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.021" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="86dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="744dp"
+                android:background="@drawable/registro_campos"
+                android:entries="@array/estadoCivil"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.336"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.108" />
+
 
             <TextView
-                android:id="@+id/textView16"
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="160dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="721dp"
+                android:text="@string/txtCelular"
+                android:textColor="#ffff"
+                android:textSize="22sp"
+                app:fontFamily="@font/fresca"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.112"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.25" />
+
+            <EditText
+                android:id="@+id/txtCelular2"
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="614dp"
+                android:background="@drawable/registro_campos"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:paddingStart="30dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.336"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.185"
+                tools:ignore="LabelFor"
+                tools:targetApi="o" />
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="279dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="600dp"
+                android:text="@string/txtDireccion"
+                android:textColor="#ffff"
+                android:textSize="22sp"
+                app:fontFamily="@font/fresca"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.119"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.304" />
+
+            <EditText
+                android:id="@+id/txtDireccion"
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="325dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="505dp"
+                android:background="@drawable/registro_campos"
+                android:ems="10"
+                android:hint="Ingrese su dirección"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:maxLength="50"
+                android:paddingStart="30dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.347"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.195"
+                tools:ignore="LabelFor"
+                tools:targetApi="o" />
+
+
+            <TextView
+                android:id="@+id/txtContraseña"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="380dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="417dp"
+                android:text="@string/txtContrasena"
+                android:textColor="#ffff"
+                android:textSize="22sp"
+                app:fontFamily="@font/fresca"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.127"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.423" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="460dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="346dp"
+                android:background="@drawable/registro_campos"
+                android:ems="10"
+                android:hint="**********"
+                android:importantForAutofill="no"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.347"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="LabelFor"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="right"
-                android:paddingRight="10dp"
-                android:text="@string/txtN2"
+                android:layout_marginStart="46dp"
+                android:layout_marginLeft="46dp"
+                android:layout_marginTop="518dp"
+                android:layout_marginBottom="284dp"
+                android:text="@string/txtTipPswd"
                 android:textColor="#ffff"
-                android:textSize="24sp"
-                app:fontFamily="@font/fredoka_one"
-                android:paddingEnd="10dp" />
-        </LinearLayout>
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.011" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/borde_scroll"
-            android:orientation="vertical">
 
-            <ScrollView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="0dp"
-                android:background="@drawable/borde_scroll"
-                tools:layout_editor_absoluteX="-2dp"
-                tools:layout_editor_absoluteY="112dp">
+            <TextView
+                android:id="@+id/txtContraseña2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="570dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="124dp"
+                android:text="@string/txtContrasena2"
+                android:textColor="#ffff"
+                android:textSize="22sp"
+                app:fontFamily="@font/fresca"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.185"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
+            <CheckBox
+                android:id="@+id/chkbTerminos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="710dp"
+                android:layout_marginEnd="116dp"
+                android:layout_marginRight="116dp"
+                android:layout_marginBottom="143dp"
+                android:layout_weight="1"
+                android:buttonTint="@color/colorIndigo"
+                android:text="@string/txtTerminos"
+                android:textColor="#ffff"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <CheckBox
+                android:id="@+id/chkbNoticias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="746dp"
+                android:layout_marginBottom="107dp"
+                android:layout_weight="1"
+                android:buttonTint="@color/colorIndigo"
+                android:text="@string/txtNoticias"
+                android:textColor="#ffff"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+            <LinearLayout
+                android:id="@+id/btnAnterior"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="812dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/continue_correo"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.177"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0">
+
+                <TextView
+                    android:layout_width="91dp"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginRight="50dp"
+                    android:text="@string/txtAnterior"
+                    android:textColor="#ffff"
+                    android:textSize="22sp"
+                    app:fontFamily="@font/fresca" />
+            </LinearLayout>
 
+            <LinearLayout
+                android:id="@+id/btnCrear"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="818dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/continue_correo"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toEndOf="@+id/btnAnterior"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="40dp"
+                    android:gravity="center"
+                    android:text="@string/txtCrear"
+                    android:textColor="#ffff"
+                    android:textSize="22sp"
+                    app:fontFamily="@font/fresca" />
+            </LinearLayout>
 
-                        <TextView
-                            android:id="@+id/textView11"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="50dp"
-                            android:layout_marginLeft="50dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginEnd="30dp"
-                            android:layout_marginRight="30dp"
-                            android:text="@string/txtEstado"
-                            android:textColor="#ffff"
-                            android:textSize="22sp"
-                            app:fontFamily="@font/fresca" />
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginLeft="64dp"
+                android:layout_marginTop="611dp"
+                android:layout_marginEnd="103dp"
+                android:layout_marginRight="103dp"
+                android:layout_marginBottom="252dp"
+                android:background="@drawable/registro_campos"
+                android:ems="10"
+                android:hint="**********"
+                android:importantForAutofill="no"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.339"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="LabelFor"
+                tools:targetApi="o" />
 
-                        <Spinner
-                            android:id="@+id/spinner2"
-                            android:layout_width="300dp"
-                            android:layout_height="55dp"
-                            android:layout_marginLeft="50dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginRight="50dp"
-                            android:background="@drawable/registro_campos"
-                            android:entries="@array/estadoCivil"
-                            android:paddingLeft="20dp"
-                            android:paddingRight="20dp" />
-                    </LinearLayout>
+        </android.support.constraint.ConstraintLayout>
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
+    </ScrollView>
 
-                        <TextView
-                            android:id="@+id/textView9"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="50dp"
-                            android:layout_marginLeft="50dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginEnd="60dp"
-                            android:layout_marginRight="60dp"
-                            android:text="@string/txtCelular"
-                            android:textColor="#ffff"
-                            android:textSize="22sp"
-                            app:fontFamily="@font/fresca" />
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal">
-
-                            <EditText
-                                android:id="@+id/txtCelular"
-                                android:layout_width="70dp"
-                                android:layout_height="55dp"
-                                android:layout_marginStart="50dp"
-                                android:layout_marginLeft="50dp"
-                                android:layout_marginTop="10dp"
-                                android:layout_marginEnd="10dp"
-                                android:layout_marginRight="10dp"
-                                android:background="@drawable/registro_campos"
-                                android:ems="10"
-                                android:importantForAutofill="no"
-                                android:inputType="number"
-                                android:maxLength="4"
-                                android:paddingStart="10dp"
-                                android:paddingLeft="20dp"
-                                android:paddingRight="20dp"
-                                tools:ignore="LabelFor"
-                                tools:targetApi="o" />
-
-                            <EditText
-                                android:id="@+id/txtCelular2"
-                                android:layout_width="220dp"
-                                android:layout_height="55dp"
-                                android:layout_marginTop="10dp"
-                                android:layout_marginEnd="50dp"
-                                android:layout_marginRight="50dp"
-                                android:background="@drawable/registro_campos"
-                                android:ems="10"
-                                android:importantForAutofill="no"
-                                android:inputType="number"
-                                android:maxLength="10"
-                                android:paddingStart="10dp"
-                                android:paddingLeft="20dp"
-                                android:paddingRight="20dp"
-                                tools:ignore="LabelFor"
-                                tools:targetApi="o" />
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/textView10"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="50dp"
-                            android:layout_marginLeft="50dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginEnd="30dp"
-                            android:layout_marginRight="30dp"
-                            android:text="@string/txtDireccion"
-                            android:textColor="#ffff"
-                            android:textSize="22sp"
-                            app:fontFamily="@font/fresca" />
-
-                        <EditText
-                            android:id="@+id/txtDireccion"
-                            android:layout_width="300dp"
-                            android:layout_height="55dp"
-                            android:layout_marginStart="50dp"
-                            android:layout_marginLeft="50dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginEnd="10dp"
-                            android:layout_marginRight="10dp"
-                            android:background="@drawable/registro_campos"
-                            android:ems="10"
-                            android:importantForAutofill="no"
-                            android:inputType="textPersonName"
-                            android:maxLength="50"
-                            android:paddingStart="10dp"
-                            android:paddingLeft="20dp"
-                            android:paddingRight="20dp"
-                            tools:ignore="LabelFor"
-                            tools:targetApi="o" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/txtContraseña"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="50dp"
-                            android:layout_marginLeft="50dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginEnd="30dp"
-                            android:layout_marginRight="30dp"
-                            android:text="@string/txtContrasena"
-                            android:textColor="#ffff"
-                            android:textSize="22sp"
-                            app:fontFamily="@font/fresca" />
-
-                        <EditText
-                            android:id="@+id/editText3"
-                            android:layout_width="300dp"
-                            android:layout_height="55dp"
-                            android:layout_marginStart="50dp"
-                            android:layout_marginLeft="50dp"
-                            android:layout_marginTop="10dp"
-                            android:background="@drawable/registro_campos"
-                            android:ems="10"
-                            android:hint="**********"
-                            android:importantForAutofill="no"
-                            android:inputType="textPassword"
-                            android:maxLength="20"
-                            android:paddingLeft="20dp"
-                            android:paddingRight="20dp"
-                            tools:ignore="LabelFor"
-                            tools:targetApi="o" />
-
-                        <TextView
-                            android:id="@+id/textView14"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="50dp"
-                            android:layout_marginLeft="50dp"
-                            android:layout_marginTop="5dp"
-                            android:text="@string/txtTipPswd"
-                            android:textColor="#ffff" />
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/txtContraseña2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="50dp"
-                            android:layout_marginLeft="50dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginEnd="30dp"
-                            android:layout_marginRight="30dp"
-                            android:text="@string/txtContrasena2"
-                            android:textColor="#ffff"
-                            android:textSize="22sp"
-                            app:fontFamily="@font/fresca" />
-
-                        <EditText
-                            android:id="@+id/editText4"
-                            android:layout_width="300dp"
-                            android:layout_height="55dp"
-                            android:layout_marginStart="50dp"
-                            android:layout_marginLeft="50dp"
-                            android:layout_marginTop="10dp"
-                            android:background="@drawable/registro_campos"
-                            android:ems="10"
-                            android:hint="**********"
-                            android:importantForAutofill="no"
-                            android:inputType="textPassword"
-                            android:maxLength="20"
-                            android:paddingLeft="20dp"
-                            android:paddingRight="20dp"
-                            tools:ignore="LabelFor"
-                            tools:targetApi="o" />
-
-                    </LinearLayout>
-
-                    <CheckBox
-                        android:id="@+id/chkbTerminos"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="40dp"
-                        android:layout_weight="1"
-                        android:text="@string/txtTerminos"
-                        android:textColor="#ffff"
-                        android:textSize="18sp" />
-
-                    <CheckBox
-                        android:id="@+id/chkbNoticias"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_weight="1"
-                        android:text="@string/txtNoticias"
-                        android:textColor="#ffff"
-                        android:textSize="18sp" />
-
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="40dp"
-                        android:orientation="horizontal">
-
-                        <LinearLayout
-                            android:id="@+id/btnAnterior"
-                            android:layout_width="170dp"
-                            android:layout_height="50dp"
-                            android:layout_marginStart="20dp"
-                            android:layout_marginLeft="20dp"
-                            android:layout_marginTop="50dp"
-                            android:layout_marginEnd="20dp"
-                            android:layout_marginRight="20dp"
-                            android:background="@drawable/continue_correo"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="91dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="50dp"
-                                android:layout_marginLeft="50dp"
-                                android:layout_marginTop="10dp"
-                                android:layout_marginEnd="50dp"
-                                android:layout_marginRight="50dp"
-                                android:text="@string/txtAnterior"
-                                android:textColor="#ffff"
-                                android:textSize="22sp"
-                                app:fontFamily="@font/fresca" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:id="@+id/btnCrear"
-                            android:layout_width="170dp"
-                            android:layout_height="50dp"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginTop="50dp"
-                            android:layout_marginEnd="30dp"
-                            android:layout_marginRight="30dp"
-                            android:background="@drawable/continue_correo"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="100dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="40dp"
-                                android:layout_marginTop="10dp"
-                                android:layout_marginRight="40dp"
-                                android:gravity="center"
-                                android:text="@string/txtCrear"
-                                android:textColor="#ffff"
-                                android:textSize="22sp"
-                                app:fontFamily="@font/fresca" />
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </ScrollView>
-        </LinearLayout>
-
-    </LinearLayout>
 </android.support.constraint.ConstraintLayout>

@@ -11,20 +11,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ExitoRegistro"></activity>
-        <activity android:name=".SignUpTwo" />
-        <activity android:name=".Splash">
+        <activity android:name=".ExitoRegistro"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SignUpTwo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Splash"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Login" />
-        <activity android:name=".SignIn" />
-        <activity android:name=".SignUp" />
-        <activity android:name=".MainScreen" />
-        <activity android:name=".Menu" />
+        <activity android:name=".Login"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SignIn"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SignUp"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainScreen"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Menu"
+            android:screenOrientation="portrait"/>
 
         <meta-data
             android:name="preloaded_fonts"

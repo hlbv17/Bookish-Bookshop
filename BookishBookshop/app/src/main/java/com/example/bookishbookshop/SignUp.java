@@ -41,7 +41,7 @@ public class SignUp extends AppCompatActivity {
         edad = findViewById(R.id.txtEdad);
         direccion = findViewById(R.id.txtDireccion);
         correo = findViewById(R.id.txtCorreo);
-        celular = findViewById(R.id.txtCelular);
+        celular = findViewById(R.id.txtCelular2);
         F = findViewById(R.id.rdbF);
         M = findViewById(R.id.rdbM);
         estadoCivil = findViewById(R.id.spinner2);
