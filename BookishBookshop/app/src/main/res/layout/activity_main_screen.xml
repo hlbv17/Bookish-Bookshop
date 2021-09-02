@@ -12,7 +12,7 @@
     app:layout_constraintTop_toTopOf="parent">
 
     <android.support.constraint.ConstraintLayout
-        android:id="@+id/ConnstraintLayout"
+        android:id="@+id/ConstraintLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/fondo"
@@ -98,52 +98,48 @@
 
                 <Button
                     android:id="@+id/btn1"
-                    style="@style/Widget.AppCompat.Button"
+                    style="?attr/buttonBarStyle"
                     android:layout_width="125dp"
                     android:layout_height="200dp"
                     android:layout_marginStart="15dp"
                     android:layout_marginLeft="15dp"
                     android:layout_marginTop="12dp"
                     android:background="@drawable/book_alma"
-                    android:clickable="true"
                     android:foreground="?attr/selectableItemBackground" />
 
                 <Button
                     android:id="@+id/btn2"
-                    style="@style/Widget.AppCompat.Button"
+                    style="?attr/buttonBarStyle"
                     android:layout_width="125dp"
                     android:layout_height="200dp"
                     android:layout_marginStart="20dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="12dp"
                     android:background="@drawable/book_silencio"
-                    android:clickable="true"
                     android:contentDescription="@string/txtSugerencia"
                     android:foreground="?attr/selectableItemBackground" />
 
                 <Button
                     android:id="@+id/btn3"
-                    style="@style/Widget.AppCompat.Button"
+                    style="?attr/buttonBarStyle"
                     android:layout_width="125dp"
                     android:layout_height="200dp"
                     android:layout_marginStart="20dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="12dp"
                     android:background="@drawable/book_mito"
-                    android:clickable="true"
                     android:contentDescription="@string/txtSugerencia"
-                    android:foreground="?attr/selectableItemBackground" />
+                    android:foreground="?attr/selectableItemBackground"/>
 
                 <Button
                     android:id="@+id/btn4"
-                    style="@style/Widget.AppCompat.Button"
+                    style="?attr/buttonBarStyle"
                     android:layout_width="125dp"
                     android:layout_height="200dp"
                     android:layout_marginStart="20dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="12dp"
                     android:background="@drawable/book_fantasma"
-                    android:clickable="true"
                     android:contentDescription="@string/txtSugerencia"
                     android:foreground="?attr/selectableItemBackground" />
 
@@ -156,7 +152,6 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="12dp"
                     android:background="@drawable/book_soledad"
-                    android:clickable="true"
                     android:contentDescription="@string/txtSugerencia"
                     android:foreground="?attr/selectableItemBackground" />
 
