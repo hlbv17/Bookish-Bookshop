@@ -21,6 +21,7 @@ public class Menu extends AppCompatActivity {
         LinearLayout Compra = findViewById(R.id.btnCompra);
         LinearLayout Categorias = findViewById(R.id.btnCategorias);
         LinearLayout Sugerencias = findViewById(R.id.btnSugerencias);
+        LinearLayout Frases = findViewById(R.id.btnFrases);
         LinearLayout Qr = findViewById(R.id.btnQr);
 
         Menu.setOnClickListener(new View.OnClickListener() {
@@ -79,6 +80,12 @@ public class Menu extends AppCompatActivity {
             }
         });
 
-
+        Frases.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent (v.getContext(), Proximamente.class);
+                startActivityForResult(intent, 0);
+            }
+        });
     }
 }
