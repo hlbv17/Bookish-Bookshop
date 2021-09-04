@@ -308,7 +308,7 @@
                 app:layout_constraintVertical_bias="0.14" />
 
             <CheckBox
-                android:id="@+id/chkb_Terminos"
+                android:id="@+id/ckb_Terminos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -330,7 +330,7 @@
                 app:layout_constraintVertical_bias="0.593" />
 
             <CheckBox
-                android:id="@+id/chkb_Noticias"
+                android:id="@+id/ckb_Noticias"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"

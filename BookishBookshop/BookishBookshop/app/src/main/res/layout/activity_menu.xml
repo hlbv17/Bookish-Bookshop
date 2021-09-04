@@ -40,6 +40,7 @@
                 android:paddingRight="20dp" />
 
             <LinearLayout
+                android:id="@+id/btnPerfil"
                 android:layout_width="170dp"
                 android:layout_height="130dp"
                 android:layout_marginStart="20dp"
@@ -77,6 +78,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/btnCompra"
                 android:layout_width="170dp"
                 android:layout_height="130dp"
                 android:layout_marginStart="20dp"
@@ -113,6 +115,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/btnFrases"
                 android:layout_width="170dp"
                 android:layout_height="130dp"
                 android:layout_marginStart="20dp"
@@ -149,6 +152,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/btnSugerencias"
                 android:layout_width="170dp"
                 android:layout_height="130dp"
                 android:layout_marginStart="20dp"
@@ -233,6 +237,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/btnQr"
                 android:layout_width="170dp"
                 android:layout_height="130dp"
                 android:layout_marginStart="10dp"
@@ -269,6 +274,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/btnCategorias"
                 android:layout_width="170dp"
                 android:layout_height="130dp"
                 android:layout_marginStart="10dp"
@@ -305,6 +311,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/btnDeseos"
                 android:layout_width="170dp"
                 android:layout_height="130dp"
                 android:layout_marginStart="10dp"

@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MetodoPago"></activity>
+        <activity android:name=".Proximamente"></activity>
+        <activity android:name=".MetodoPago" />
         <activity android:name=".PreferenciasTwo" />
         <activity android:name=".Preferencias" />
         <activity

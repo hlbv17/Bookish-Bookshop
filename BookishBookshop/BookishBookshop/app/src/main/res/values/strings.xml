@@ -62,6 +62,7 @@
     <string name="txtTipNom">Este nombre aparecerá en tu perfil Bookish.</string>
     <string name="txtTipPswd">Ingrese una contraseña para iniciar sesión.</string>
     <string name="txtExitoCuenta">Cuenta creada\ncorrectamente</string>
+    <string name="txtProximo">Próximamente\ndisponible</string>
     <string name="txtN1">1/2</string>
     <string name="txtN2">2/2</string>
     <string name="txtPrefer">Tus Preferencias</string>

@@ -19,7 +19,7 @@ public class MetodoPago extends AppCompatActivity {
         botonGuardar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent (v.getContext(), ExitoRegistro.class);
+                Intent intent = new Intent (v.getContext(), MainScreen.class);
                 startActivityForResult(intent, 0);
             }
         });

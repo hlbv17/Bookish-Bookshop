@@ -16,6 +16,12 @@ public class Menu extends AppCompatActivity {
         getSupportActionBar().hide();
         Button Menu = findViewById(R.id.btnMenu);
         LinearLayout Tarjeta = findViewById(R.id.btnTarjeta);
+        LinearLayout Perfil = findViewById(R.id.btnPerfil);
+        LinearLayout Deseos = findViewById(R.id.btnDeseos);
+        LinearLayout Compra = findViewById(R.id.btnCompra);
+        LinearLayout Categorias = findViewById(R.id.btnCategorias);
+        LinearLayout Sugerencias = findViewById(R.id.btnSugerencias);
+        LinearLayout Qr = findViewById(R.id.btnQr);
 
         Menu.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,20 +39,46 @@ public class Menu extends AppCompatActivity {
             }
         });
 
-            /*private Button button;
-
+        Perfil.setOnClickListener(new View.OnClickListener() {
             @Override
-            protected void onCreate(Bundle savedInstanceState) {
-                super.onCreate(savedInstanceState);
-                setContentView(R.layout.activity_main);
-                button= (Button)findViewById(R.id.button);
-                button.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Intent i = new Intent(MainActivity.this, UnityPlayerActivity.class);
-                        startActivity(i);
-                    }
-                });
-            }*/
+            public void onClick(View v) {
+                Intent intent = new Intent (v.getContext(), Proximamente.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+
+        Compra.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent (v.getContext(), Proximamente.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+
+        Deseos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent (v.getContext(), Proximamente.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+
+        Sugerencias.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent (v.getContext(), Proximamente.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+
+        Categorias.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent (v.getContext(), Proximamente.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+
+
     }
 }

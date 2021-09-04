@@ -61,7 +61,7 @@
     <ScrollView
         android:id="@+id/scrollView3"
         android:layout_width="match_parent"
-        android:layout_height="608dp"
+        android:layout_height="700dp"
         android:layout_marginTop="130dp"
         android:background="@drawable/borde_scroll"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -75,7 +75,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:layout_editor_absoluteX="80dp"
-            tools:layout_editor_absoluteY="444dp">
+            tools:layout_editor_absoluteY="600dp">
 
 
             <TextView
@@ -173,7 +173,7 @@
 
             <EditText
                 android:id="@+id/textView14"
-                android:layout_width="314dp"
+                android:layout_width="300dp"
                 android:layout_height="51dp"
                 android:layout_marginStart="48dp"
                 android:layout_marginLeft="48dp"
@@ -252,13 +252,14 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <TextView
-                    android:layout_width="91dp"
+                    android:layout_width="76dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="35dp"
                     android:layout_marginLeft="35dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="50dp"
                     android:layout_marginRight="50dp"
+                    android:gravity="center"
                     android:text="@string/txtOmitir"
                     android:textColor="#ffff"
                     android:textSize="22sp"
@@ -285,11 +286,12 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <TextView
-                    android:layout_width="100dp"
+                    android:layout_width="89dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="40dp"
+                    android:gravity="center"
                     android:text="@string/txtListo"
                     android:textColor="#ffff"
                     android:textSize="22sp"
