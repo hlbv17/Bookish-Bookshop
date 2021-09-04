@@ -9,20 +9,23 @@ import android.widget.LinearLayout;
 
 public class Menu extends AppCompatActivity {
 
+    Button Menu;
+    LinearLayout Tarjeta, Perfil, Deseos, Compra, Categorias, Sugerencias, Frases, Qr;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
         getSupportActionBar().hide();
-        Button Menu = findViewById(R.id.btnMenu);
-        LinearLayout Tarjeta = findViewById(R.id.btnTarjeta);
-        LinearLayout Perfil = findViewById(R.id.btnPerfil);
-        LinearLayout Deseos = findViewById(R.id.btnDeseos);
-        LinearLayout Compra = findViewById(R.id.btnCompra);
-        LinearLayout Categorias = findViewById(R.id.btnCategorias);
-        LinearLayout Sugerencias = findViewById(R.id.btnSugerencias);
-        LinearLayout Frases = findViewById(R.id.btnFrases);
-        LinearLayout Qr = findViewById(R.id.btnQr);
+
+        Menu = findViewById(R.id.btnMenu);
+        Tarjeta = findViewById(R.id.btnTarjeta);
+        Perfil = findViewById(R.id.btnPerfil);
+        Deseos = findViewById(R.id.btnDeseos);
+        Compra = findViewById(R.id.btnCompra);
+        Categorias = findViewById(R.id.btnCategorias);
+        Sugerencias = findViewById(R.id.btnSugerencias);
+        Frases = findViewById(R.id.btnFrases);
+        Qr = findViewById(R.id.btnQr);
 
         Menu.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -85,6 +88,14 @@ public class Menu extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent (v.getContext(), Proximamente.class);
                 startActivityForResult(intent, 0);
+            }
+        });
+
+        Qr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = getPackageManager().getLaunchIntentForPackage("com.UGLibro.QR");
+                startActivity(intent);
             }
         });
     }
