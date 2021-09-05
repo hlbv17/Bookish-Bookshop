@@ -36,16 +36,12 @@
         android:layout_marginStart="25dp"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="96dp"
-        android:layout_marginEnd="225dp"
-        android:layout_marginRight="225dp"
         android:layout_marginBottom="505dp"
         android:background="@drawable/boton_redondo_menu"
         android:clickable="true"
         android:foreground="?attr/selectableItemBackground"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -82,16 +78,12 @@
         android:layout_marginStart="25dp"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="250dp"
-        android:layout_marginEnd="225dp"
-        android:layout_marginRight="225dp"
         android:layout_marginBottom="359dp"
         android:background="@drawable/boton_redondo_menu"
         android:clickable="true"
         android:foreground="?attr/selectableItemBackground"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -127,16 +119,12 @@
         android:layout_marginStart="25dp"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="400dp"
-        android:layout_marginEnd="225dp"
-        android:layout_marginRight="225dp"
         android:layout_marginBottom="209dp"
         android:background="@drawable/boton_redondo_menu"
         android:clickable="true"
         android:foreground="?attr/selectableItemBackground"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -172,16 +160,12 @@
         android:layout_marginStart="25dp"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="550dp"
-        android:layout_marginEnd="225dp"
-        android:layout_marginRight="225dp"
         android:layout_marginBottom="54dp"
         android:background="@drawable/boton_redondo_menu"
         android:clickable="true"
         android:foreground="?attr/selectableItemBackground"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -215,8 +199,8 @@
         android:id="@+id/btnTarjeta"
         android:layout_width="170dp"
         android:layout_height="130dp"
-        android:layout_marginStart="211dp"
-        android:layout_marginLeft="211dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="96dp"
         android:layout_marginEnd="25dp"
         android:layout_marginRight="25dp"
@@ -228,8 +212,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintStart_toEndOf="@+id/btnPerfil"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <ImageView
             android:id="@+id/ic_tarjeta"
@@ -260,8 +245,8 @@
         android:id="@+id/btnQr"
         android:layout_width="170dp"
         android:layout_height="130dp"
-        android:layout_marginStart="211dp"
-        android:layout_marginLeft="211dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="250dp"
         android:layout_marginEnd="25dp"
         android:layout_marginRight="25dp"
@@ -273,7 +258,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnCompra"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
@@ -305,11 +290,11 @@
         android:id="@+id/btnCategorias"
         android:layout_width="170dp"
         android:layout_height="130dp"
-        android:layout_marginStart="211dp"
-        android:layout_marginLeft="211dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="400dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginRight="30dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
         android:layout_marginBottom="202dp"
         android:background="@drawable/boton_redondo_menu"
         android:clickable="true"
@@ -317,8 +302,10 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btnFrases"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <ImageView
             android:id="@+id/ic_categoria"
@@ -349,11 +336,11 @@
         android:id="@+id/btnDeseos"
         android:layout_width="170dp"
         android:layout_height="130dp"
-        android:layout_marginStart="211dp"
-        android:layout_marginLeft="211dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="550dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginRight="30dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
         android:layout_marginBottom="54dp"
         android:background="@drawable/boton_redondo_menu"
         android:clickable="true"
@@ -362,7 +349,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnSugerencias"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
