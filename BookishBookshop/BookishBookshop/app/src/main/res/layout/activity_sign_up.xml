@@ -407,66 +407,76 @@
                 tools:ignore="LabelFor"
                 tools:targetApi="o" />
 
-            <LinearLayout
+            <android.support.constraint.ConstraintLayout
                 android:id="@+id/btnCancelar"
                 android:layout_width="150dp"
                 android:layout_height="50dp"
-                android:layout_marginStart="44dp"
-                android:layout_marginLeft="44dp"
-                android:layout_marginTop="900dp"
-                android:layout_marginBottom="50dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
                 android:background="@drawable/continue_correo"
                 android:orientation="horizontal"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0">
+                app:layout_constraintVertical_bias="0.938">
 
                 <TextView
-                    android:layout_width="91dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="35dp"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginEnd="50dp"
-                    android:layout_marginRight="50dp"
+                    android:layout_marginEnd="29dp"
+                    android:layout_marginRight="29dp"
+                    android:layout_marginBottom="11dp"
                     android:text="@string/txtCancelar"
                     android:textColor="#ffff"
                     android:textSize="22sp"
-                    app:fontFamily="@font/fresca" />
+                    app:fontFamily="@font/fresca"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
-            </LinearLayout>
+            </android.support.constraint.ConstraintLayout>
 
-            <LinearLayout
+            <android.support.constraint.ConstraintLayout
                 android:id="@+id/btnSiguiente"
                 android:layout_width="150dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginLeft="8dp"
-                android:layout_marginTop="880dp"
-                android:layout_marginEnd="32dp"
-                android:layout_marginRight="32dp"
-                android:layout_marginBottom="50dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
                 android:background="@drawable/continue_correo"
                 android:orientation="horizontal"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.592"
+                app:layout_constraintHorizontal_bias="0.363"
                 app:layout_constraintStart_toEndOf="@+id/btnCancelar"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="1.0">
+                app:layout_constraintVertical_bias="0.938">
 
                 <TextView
-                    android:layout_width="100dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginRight="40dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
                     android:text="@string/txtSiguiente"
                     android:textColor="#ffff"
                     android:textSize="22sp"
-                    app:fontFamily="@font/fresca" />
-            </LinearLayout>
+                    app:fontFamily="@font/fresca"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.509"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+            </android.support.constraint.ConstraintLayout>
 
             <TextView
                 android:id="@+id/txtv_sID_Error"

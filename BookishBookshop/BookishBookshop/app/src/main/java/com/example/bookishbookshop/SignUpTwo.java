@@ -1,6 +1,7 @@
 package com.example.bookishbookshop;
 
 import android.content.Intent;
+import android.support.constraint.ConstraintLayout;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -22,7 +23,7 @@ public class SignUpTwo extends AppCompatActivity {
     TextView txtvEstadoCivilR, txtvCelularR, txtvDireccionR, txtvContrasenaR,txtvContrasenaCR;
     EditText edtxCelular, edtxDireccion, edtxContrasena, edtxContrasenaC;
     CheckBox ckbTerminos, ckNoticias;
-    LinearLayout btnAnterior, btnCrear;
+    ConstraintLayout btnAnterior, btnCrear;
     private boolean isFirstTime = true;
 
 

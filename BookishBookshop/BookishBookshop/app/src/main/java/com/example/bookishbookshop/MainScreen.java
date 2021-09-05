@@ -10,7 +10,9 @@ import android.widget.Button;
 import android.widget.VideoView;
 
 public class MainScreen extends AppCompatActivity {
+
     VideoView videoView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -1,6 +1,7 @@
 package com.example.bookishbookshop;
 
 import android.content.Intent;
+import android.support.constraint.ConstraintLayout;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -25,7 +26,7 @@ public class SignUp extends AppCompatActivity {
     EditText edtxID, edtxNombre,edtxCorreo, edtxEdad;
     RadioGroup rdgSexo;
     RadioButton rdbFemenino, rdbMasculino, rdbOtros;
-    LinearLayout btnSiguiente, btnCancelar;
+    ConstraintLayout btnSiguiente, btnCancelar;
     private boolean isFirstTime = true;
 
     @Override

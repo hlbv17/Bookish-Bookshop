@@ -1,14 +1,20 @@
 package com.example.bookishbookshop;
 
 import android.content.Intent;
+import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class Login extends AppCompatActivity {
+
+    ImageButton botonG,botonF,botonT;
+    ConstraintLayout botonMail;
+    TextView txt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,11 +22,11 @@ public class Login extends AppCompatActivity {
         getSupportActionBar().hide();
         setContentView(R.layout.activity_login);
 
-        Button botonG = findViewById(R.id.btnGoogle);
-        Button botonF = findViewById(R.id.btnFb);
-        Button botonT = findViewById(R.id.btnTwt);
-        LinearLayout botonMail = findViewById(R.id.btnCorreo);
-        TextView txt = findViewById(R.id.txtRegistrar);;
+        botonG = findViewById(R.id.btnGoogle);
+        botonF = findViewById(R.id.btnFb);
+        botonT = findViewById(R.id.btnTwt);
+        botonMail = findViewById(R.id.btnCorreo);
+        txt = findViewById(R.id.txtRegistrar);;
 
         botonG.setOnClickListener(new View.OnClickListener() {
             @Override

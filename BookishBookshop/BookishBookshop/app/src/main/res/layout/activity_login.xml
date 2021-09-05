@@ -84,54 +84,48 @@
         android:layout_height="60dp"
         android:layout_marginStart="164dp"
         android:layout_marginLeft="164dp"
-        android:layout_marginTop="378dp"
         android:layout_marginEnd="167dp"
         android:layout_marginRight="167dp"
-        android:layout_marginBottom="293dp"
         android:background="@drawable/borde_redondog"
         android:contentDescription="@string/app_name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.563"
         app:srcCompat="@drawable/google" />
 
     <ImageButton
         android:id="@+id/btnFb"
         android:layout_width="80dp"
         android:layout_height="60dp"
-        android:layout_marginStart="55dp"
-        android:layout_marginLeft="55dp"
-        android:layout_marginTop="378dp"
-        android:layout_marginEnd="287dp"
-        android:layout_marginRight="287dp"
-        android:layout_marginBottom="293dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:background="@drawable/borde_redondof"
         android:contentDescription="@string/app_name"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintEnd_toStartOf="@+id/btnGoogle"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.563"
         app:srcCompat="@drawable/fb" />
 
     <ImageButton
         android:id="@+id/btnTwt"
         android:layout_width="80dp"
         android:layout_height="60dp"
-        android:layout_marginStart="276dp"
-        android:layout_marginLeft="276dp"
-        android:layout_marginTop="378dp"
-        android:layout_marginEnd="55dp"
-        android:layout_marginRight="55dp"
-        android:layout_marginBottom="293dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:background="@drawable/borde_redondot"
         android:contentDescription="@string/app_name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.367"
+        app:layout_constraintStart_toEndOf="@+id/btnGoogle"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.563"
         app:srcCompat="@drawable/twitter" />
 
 
@@ -199,19 +193,17 @@
         android:layout_height="63dp"
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="562dp"
         android:layout_marginEnd="100dp"
         android:layout_marginRight="100dp"
-        android:layout_marginBottom="100dp"
         android:background="@drawable/continue_correo"
         android:orientation="vertical"
         android:translationX="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.777"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.333">
+        app:layout_constraintVertical_bias="0.802">
 
         <TextView
             android:id="@+id/textView8"
@@ -230,10 +222,9 @@
             app:fontFamily="@font/fresca"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.491"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.555" />
+            app:layout_constraintVertical_bias="1.0" />
     </android.support.constraint.ConstraintLayout>
 
     <TextView
