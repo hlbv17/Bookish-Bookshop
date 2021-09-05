@@ -411,14 +411,18 @@
                 android:id="@+id/btnCancelar"
                 android:layout_width="150dp"
                 android:layout_height="50dp"
-                android:layout_marginStart="40dp"
-                android:layout_marginLeft="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
                 android:background="@drawable/continue_correo"
                 android:orientation="horizontal"
                 app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.155"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.938">
+                app:layout_constraintTop_toBottomOf="@+id/txtv_Edad_Error"
+                app:layout_constraintVertical_bias="0.615">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -444,18 +448,16 @@
                 android:id="@+id/btnSiguiente"
                 android:layout_width="150dp"
                 android:layout_height="50dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginLeft="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
                 android:background="@drawable/continue_correo"
                 android:orientation="horizontal"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.363"
+                app:layout_constraintHorizontal_bias="0.385"
                 app:layout_constraintStart_toEndOf="@+id/btnCancelar"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.938">
+                app:layout_constraintVertical_bias="0.975">
 
                 <TextView
                     android:layout_width="wrap_content"
