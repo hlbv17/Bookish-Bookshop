@@ -8,258 +8,14 @@
   <component name="ChangeListManager">
     <list default="true" id="520fdf4d-bd13-4122-a1d6-00828451272d" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/MetodoPago.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Preferencias.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/PreferenciasTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/17543.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/CO.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/Downloads/Algoritmo De La Ruta Más Corta.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/Downloads/Algoritmo De La Ruta Más Corta.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/Downloads/Algoritmo Del Flujo Máximo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/Downloads/Algoritmo Del Flujo Máximo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/Excel.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FCPM1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/androidTest/java/com/framesjoe/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/java/com/framesjoe/Main1Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/java/com/framesjoe/Main3Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/java/com/framesjoe/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/java/com/framesjoe/MainActivity2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/java/com/framesjoe/MainActivityPrueba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/drawable-v24/gradient_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/font/fredoka_one.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/font/fresca.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/layout/activity_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/layout/activity_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/layout/activity_main1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/values/stringsejemplo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/app/src/test/java/com/framesjoe/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/FramesJoe/FramesJoe/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/Fresca/Fresca-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/Fresca/OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/JonatanIO/WhatsApp Image 2021-01-10 at 6.04.53 AM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/JonatanIO/WhatsApp Image 2021-01-10 at 6.04.54 AM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/JonatanIO/WhatsApp Image 2021-01-10 at 6.04.55 AM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/JonatanIO/WhatsApp Image 2021-01-10 at 6.04.56 AM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/LOGO2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/OIP.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/PFCM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/Photos/20200902_202854.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/Photos/20200902_202906.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/Photos/20200902_203846.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/Proto/Actividades.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/Proto/Alimentacion.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/Proto/Eliminar pk_fk_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/Proto/Insertar_Act_Ali.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/Proto/Tipo_comida.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/Tarea 18/Mozo-Crear_Tabla-FK.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/Tarea 18/Mozo-Crear_Tabla-PK.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/Tarea 18/Mozo-Crear_Tabla.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/Tarea 18/Mozo-Elimina_Tabla-FK.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/Tarea 18/Mozo-Elimina_Tabla-PK.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/Tarea 18/Mozo-Elimina_Tabla.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ap.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/asa.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/asis.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/asis2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/bit2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/cama.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/co2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/LICENSE.electron.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/LICENSES.chromium.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/Uninstall draw.io.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/chrome_100_percent.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/chrome_200_percent.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/d3dcompiler_47.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/draw.io.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/ffmpeg.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/icudtl.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/libEGL.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/libGLESv2.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/am.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/ar.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/bg.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/bn.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/ca.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/cs.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/da.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/de.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/el.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/en-GB.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/en-US.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/es-419.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/es.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/et.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/fa.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/fi.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/fil.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/fr.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/gu.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/he.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/hi.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/hr.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/hu.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/id.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/it.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/ja.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/kn.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/ko.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/lt.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/lv.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/ml.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/mr.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/ms.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/nb.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/nl.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/pl.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/pt-BR.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/pt-PT.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/ro.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/ru.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/sk.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/sl.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/sr.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/sv.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/sw.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/ta.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/te.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/th.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/tr.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/uk.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/vi.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/zh-CN.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/locales/zh-TW.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/resources.pak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/resources/app-update.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/resources/app.asar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/resources/elevate.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/snapshot_blob.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/swiftshader/libEGL.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/swiftshader/libGLESv2.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/v8_context_snapshot.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/vk_swiftshader.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/vk_swiftshader_icd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/draw.io/vulkan-1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/e1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ejemplo/src/conf/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ejemplo/src/java/Connection/AlquilerDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ejemplo/src/java/Connection/ClienteDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ejemplo/src/java/Connection/ConexionDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ejemplo/src/java/Connection/ExistenciaDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ejemplo/src/java/Connection/TituloDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ejemplo/src/java/Connection/UsuarioDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ejemplo/src/java/Connection/VentaDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ejemplo/src/java/Contenedor/JavaOK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ejemplo/src/java/controlador/ActuaTitulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ejemplo/src/java/controlador/ClienteServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ejemplo/src/java/controlador/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ejemplo/src/java/controlador/NewMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ejemplo/src/java/controlador/NewServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ejemplo/src/java/modelo/Alquiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ejemplo/src/java/modelo/Clientes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ejemplo/src/java/modelo/Existencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ejemplo/src/java/modelo/Titulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ejemplo/src/java/modelo/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ejemplo/src/java/modelo/Ventas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ejer1.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/eoq.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/erm.ecore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/fondo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/grafo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/h.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/hotel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/icon.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/idea.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/intro.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/links.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/logo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/nor1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/ocl.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/qr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/renan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/src/conf/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/src/java/Connection/AlquilerDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/src/java/Connection/ClienteDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/src/java/Connection/ConexionDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/src/java/Connection/ExistenciaDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/src/java/Connection/TituloDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/src/java/Connection/UsuarioDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/src/java/Connection/VentaDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/src/java/Contenedor/JavaOK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/src/java/controlador/ActuaTitulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/src/java/controlador/ClienteServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/src/java/controlador/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/src/java/controlador/NewMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/src/java/controlador/NewServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/src/java/modelo/Alquiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/src/java/modelo/Clientes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/src/java/modelo/Existencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/src/java/modelo/Titulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/src/java/modelo/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/src/java/modelo/Ventas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/t1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/t2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/t3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/tar9.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/taxi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/tw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb/wifi.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_metodo_pago.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_preferencias.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_preferencias_dos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/MainScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/MainScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Preferencias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Preferencias.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/SignIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/SignUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/SignUpTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/SignUpTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/bookishb.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable/bookishb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_main_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_main_screen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_sign_in.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_sign_in.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_sign_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_sign_up.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_sign_up_dos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_sign_up_dos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/PreferenciasTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/PreferenciasTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_preferencias.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_preferencias.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_preferencias_dos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_preferencias_dos.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -278,46 +34,47 @@
     <session id="-1724159241">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.30" value="2" />
+          <entry key="project.open.time.300" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.68" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="2" />
-          <entry key="java" value="68" />
+          <entry key="java" value="77" />
           <entry key="png" value="2" />
-          <entry key="xml" value="68" />
+          <entry key="xml" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="2" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="68" />
-          <entry key="XML" value="68" />
+          <entry key="JAVA" value="77" />
+          <entry key="XML" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="697" />
+          <entry key="java" value="737" />
           <entry key="txt" value="373" />
-          <entry key="xml" value="494" />
+          <entry key="xml" value="527" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="697" />
+          <entry key="JAVA" value="737" />
           <entry key="PLAIN_TEXT" value="373" />
-          <entry key="XML" value="494" />
+          <entry key="XML" value="527" />
         </counts>
       </usages-collector>
     </session>
@@ -327,30 +84,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_login.xml">
-          <provider selected="true" editor-type-id="android-designer2" />
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Proximamente.java">
+        <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="340">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Preferencias.java">
+        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_preferencias_dos.xml">
+          <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="272">
+              <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -358,44 +107,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/PreferenciasTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/MetodoPago.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Menu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="93" column="42" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/SignUp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1588">
-              <caret line="253" column="24" selection-start-line="253" selection-start-column="24" selection-end-line="253" selection-end-column="24" />
+            <state relative-caret-position="357">
+              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+              <folding>
+                <element signature="e#3344#3345#0" expanded="true" />
+                <element signature="e#3405#3406#0" expanded="true" />
+                <element signature="e#3469#3470#0" expanded="true" />
+                <element signature="e#3529#3530#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -415,9 +134,6 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Proximamente.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_metodo_pago.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/activity_preferencias.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/activity_preferencias_dos.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/PreferenciasTwo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/MetodoPago.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_menu.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Menu.java" />
@@ -431,11 +147,15 @@
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_login.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/MainScreen.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_main_screen.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_preferencias.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Preferencias.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_preferencias_dos.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/PreferenciasTwo.java" />
+        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="672" />
     <option name="y" value="-8" />
     <option name="width" value="696" />
@@ -458,6 +178,11 @@
             <path>
               <item name="BookishBookshop" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
+            </path>
+            <path>
+              <item name="BookishBookshop" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
             </path>
             <path>
@@ -470,12 +195,6 @@
               <item name="BookishBookshop" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="BookishBookshop" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="BookishBookshop" type="1abcf292:AndroidViewProjectNode" />
@@ -598,6 +317,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" sideWeight="0.50163937" side_tool="true" weight="0.17857143" />
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49836066" visible="true" weight="0.17857143" />
@@ -615,7 +335,7 @@
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3295082" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Preview" order="0" weight="0.32978722" />
       <window_info anchor="right" id="Device File Explorer" order="1" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -686,22 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_preferencias.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="300" selection-start-line="300" selection-end-line="300" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_preferencias_dos.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-435">
-          <caret line="240" selection-start-line="240" selection-end-line="240" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_menu.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -745,28 +449,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Splash.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#886#1114#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/SignUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1588">
-          <caret line="253" column="24" selection-start-line="253" selection-start-column="24" selection-end-line="253" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -775,13 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="111" column="51" selection-start-line="111" selection-start-column="51" selection-end-line="111" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="93" column="42" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -825,20 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Preferencias.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/PreferenciasTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/MetodoPago.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -846,10 +511,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="93" column="42" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/SignUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3910">
+          <caret line="253" column="24" selection-start-line="253" selection-start-column="24" selection-end-line="253" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Proximamente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="204">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="e#471#710#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Preferencias.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="69" column="76" lean-forward="true" selection-start-line="69" selection-start-column="76" selection-end-line="69" selection-end-column="76" />
+          <folding>
+            <element signature="e#3363#3364#0" expanded="true" />
+            <element signature="e#3424#3425#0" expanded="true" />
+            <element signature="e#3488#3489#0" expanded="true" />
+            <element signature="e#3548#3549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_preferencias.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_preferencias_dos.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/PreferenciasTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+          <folding>
+            <element signature="e#3344#3345#0" expanded="true" />
+            <element signature="e#3405#3406#0" expanded="true" />
+            <element signature="e#3469#3470#0" expanded="true" />
+            <element signature="e#3529#3530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
         </state>
       </provider>
     </entry>

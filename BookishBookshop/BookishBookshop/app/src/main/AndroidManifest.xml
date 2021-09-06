@@ -13,14 +13,16 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Proximamente"></activity>
         <activity android:name=".MetodoPago" />
-        <activity android:name=".PreferenciasTwo" />
+        <activity android:name=".PreferenciasTwo"
+            android:windowSoftInputMode="adjustPan"/>
         <activity android:name=".Preferencias" />
         <activity
             android:name=".ExitoRegistro"
             android:screenOrientation="portrait" />
         <activity
             android:name=".SignUpTwo"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"/>
         <activity
             android:name=".Splash"
             android:screenOrientation="portrait">
@@ -38,7 +40,8 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".SignUp"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"/>
         <activity
             android:name=".MainScreen"
             android:screenOrientation="portrait" />
