@@ -8,11 +8,11 @@
     tools:context=".SignUp">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/iv_Logo_SignUp1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="@string/app_name"
-        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView_SignUp1"
         app:layout_constraintEnd_toEndOf="@+id/textView16"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,7 +35,7 @@
         android:textColor="#ffff"
         android:textSize="24sp"
         app:fontFamily="@font/fredoka_one"
-        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView_SignUp1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -54,14 +54,14 @@
         android:textColor="#ffff"
         android:textSize="24sp"
         app:fontFamily="@font/fredoka_one"
-        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView_SignUp1"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.65"
         tools:layout_editor_absoluteX="0dp" />
 
 
     <ScrollView
-        android:id="@+id/scrollView3"
+        android:id="@+id/scrollView_SignUp1"
         android:layout_width="match_parent"
         android:layout_height="608dp"
         android:layout_marginTop="128dp"
@@ -151,7 +151,6 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginBottom="614dp"
-                android:autofillHints=""
                 android:background="@drawable/registro_campos"
                 android:ems="10"
                 android:hint="Ej: 09XXXXXXXX"
@@ -211,7 +210,6 @@
                 android:paddingLeft="30dp"
                 android:paddingRight="30dp"
                 android:textSize="18sp"
-
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.347"
@@ -271,7 +269,6 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginBottom="346dp"
-                android:autofillHints=""
                 android:background="@drawable/registro_campos"
                 android:ems="10"
                 android:hint="example@bookishmail.com"
@@ -482,7 +479,7 @@
 
             <TextView
                 android:id="@+id/txtv_sID_Error"
-                android:layout_width="100dp"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="43dp"
                 android:layout_marginLeft="43dp"
@@ -502,7 +499,7 @@
 
             <TextView
                 android:id="@+id/txtv_ID_Error"
-                android:layout_width="100dp"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="43dp"
                 android:layout_marginLeft="43dp"
@@ -522,7 +519,7 @@
 
             <TextView
                 android:id="@+id/txtv_Nombre_Error"
-                android:layout_width="100dp"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="43dp"
                 android:layout_marginLeft="43dp"
@@ -542,7 +539,7 @@
 
             <TextView
                 android:id="@+id/txtv_Correo_Error"
-                android:layout_width="100dp"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="43dp"
                 android:layout_marginLeft="43dp"
@@ -562,7 +559,7 @@
 
             <TextView
                 android:id="@+id/txtv_Sexo_Error"
-                android:layout_width="100dp"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="43dp"
                 android:layout_marginLeft="43dp"
@@ -582,7 +579,7 @@
 
             <TextView
                 android:id="@+id/txtv_Edad_Error"
-                android:layout_width="100dp"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="43dp"
                 android:layout_marginLeft="43dp"

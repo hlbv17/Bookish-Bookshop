@@ -6,21 +6,27 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.InputFilter;
+import android.util.DisplayMetrics;
 import android.util.Patterns;
 import android.view.KeyEvent;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.ScrollView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class SignUp extends AppCompatActivity {
 
+    ImageView logo;
+    ScrollView scrvSU1;
     Spinner spnrID;
     TextView txtvID, txtvsIDR, txtvIDR, txtvNombreR, txtvCorreoR, txtvSexoR, txtvEdadR;
     EditText edtxID, edtxNombre,edtxCorreo, edtxEdad;
@@ -28,6 +34,11 @@ public class SignUp extends AppCompatActivity {
     RadioButton rdbFemenino, rdbMasculino, rdbOtros;
     ConstraintLayout btnSiguiente, btnCancelar;
     private boolean isFirstTime = true;
+
+    /*
+     * ---AutoFit Variables-----------------------------------------------------------------------*/
+    private int dpWidth, dpHeight, designWidth = 360,  desighHeiht = 780;
+    private float dDensity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +48,8 @@ public class SignUp extends AppCompatActivity {
 
 
         // Asign Variables
+        logo = findViewById(R.id.iv_Logo_SignUp1);
+        scrvSU1 = findViewById(R.id.scrollView_SignUp1);
         spnrID = findViewById(R.id.spnr_ID);
         txtvsIDR = findViewById(R.id.txtv_sID_Error);
         txtvID = findViewById(R.id.txtv_ID);
@@ -154,8 +167,31 @@ public class SignUp extends AppCompatActivity {
             }
         });
 
+        /*
+         * ---AutoFit-----------------------------------------------------------------------------*/
+        int buttonsX = 130, buttonsY = 60, edittextX = 300, edittextY = 70;
+        DisplayMetrics displayMetrics = getResources().getDisplayMetrics();
+        dpWidth = (displayMetrics.widthPixels);
+        dpHeight = (displayMetrics.heightPixels);
+        dDensity = (displayMetrics.scaledDensity);
+        // Imageview: Logo
+        ViewGroup.LayoutParams logoP = (ViewGroup.MarginLayoutParams) logo.getLayoutParams();
+        logoP.height = calHeight(120);
+        // ScrollView: scrollView_SignUp1
+        ViewGroup.LayoutParams scrvSU1P = (ViewGroup.MarginLayoutParams) scrvSU1.getLayoutParams();
+        scrvSU1P.height = calHeight(608);
+        // ConstraintLayout: Cancelar
+        ViewGroup.LayoutParams btnCancelarP = (ViewGroup.MarginLayoutParams) btnCancelar.getLayoutParams();
+        btnCancelarP.width = calWidth(buttonsX);
+        btnCancelarP.height = calHeight(buttonsY);
+        // ConstraintLayout: Siguiente
+        ViewGroup.LayoutParams btnSiguienteP = (ViewGroup.MarginLayoutParams) btnSiguiente.getLayoutParams();
+        btnSiguienteP.width = calWidth(buttonsX);
+        btnSiguienteP.height = calHeight(buttonsY);
 
     }
+
+
     // Method: esCorrecto
     private boolean esCorrecto () {
         boolean output = true;
@@ -212,6 +248,17 @@ public class SignUp extends AppCompatActivity {
         }
 
         return output;
+    }
+
+    /*
+     * ---Methods: AtuoFit------------------------------------------------------------------------*/
+    // Method: calHeight
+    public int calHeight (float value) {
+        return (int) (dpHeight * (value/desighHeiht));
+    }
+    // Method: calWidth
+    public int calWidth (float value) {
+        return (int) (dpWidth * (value/designWidth));
     }
 }
 
