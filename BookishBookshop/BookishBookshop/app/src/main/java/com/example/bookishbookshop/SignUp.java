@@ -25,6 +25,8 @@ import android.widget.Toast;
 
 public class SignUp extends AppCompatActivity {
 
+    /*
+     * ---Variables-------------------------------------------------------------------------------*/
     ImageView logo;
     ScrollView scrvSU1;
     Spinner spnrID;
@@ -34,6 +36,7 @@ public class SignUp extends AppCompatActivity {
     RadioButton rdbFemenino, rdbMasculino, rdbOtros;
     ConstraintLayout btnSiguiente, btnCancelar;
     private boolean isFirstTime = true;
+    TextWatcher twNombre, twCorreo;
 
     /*
      * ---AutoFit Variables-----------------------------------------------------------------------*/
@@ -107,24 +110,35 @@ public class SignUp extends AppCompatActivity {
         });
 
         // EditText Nombre: normal background && clear error
-        edtxNombre.setOnKeyListener(new View.OnKeyListener(){
+        twNombre = new TextWatcher() {
             @Override
-            public boolean onKey(View view, int i, KeyEvent keyEvent) {
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+            }
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 edtxNombre.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.registro_campos));
                 txtvNombreR.setText(null);
-                return false;
             }
-        });
+            @Override
+            public void afterTextChanged(Editable editable) {
+            }
+        };
+        edtxNombre.addTextChangedListener(twNombre);
 
         // EditText Correo: normal background && clear error
-        edtxCorreo.setOnKeyListener(new View.OnKeyListener(){
+        twCorreo = new TextWatcher() {
             @Override
-            public boolean onKey(View view, int i, KeyEvent keyEvent) {
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+            }
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 edtxCorreo.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.registro_campos));
                 txtvCorreoR.setText(null);
-                return false;
             }
-        });
+            @Override
+            public void afterTextChanged(Editable editable) {
+            }
+        };
 
         // RadioGroup Sexo: clear error
         rdgSexo.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
