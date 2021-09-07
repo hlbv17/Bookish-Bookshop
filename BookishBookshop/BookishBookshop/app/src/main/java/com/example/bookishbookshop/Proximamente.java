@@ -20,7 +20,6 @@ public class Proximamente extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-
-        },300);
+        },500);
     }
 }
