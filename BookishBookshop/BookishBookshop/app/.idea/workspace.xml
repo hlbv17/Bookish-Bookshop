@@ -8,14 +8,14 @@
   <component name="ChangeListManager">
     <list default="true" id="520fdf4d-bd13-4122-a1d6-00828451272d" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/MetodoPago.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Preferencias.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/PreferenciasTwo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_metodo_pago.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_preferencias.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_preferencias_dos.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Preferencias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Preferencias.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/PreferenciasTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/PreferenciasTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_preferencias.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_preferencias.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_preferencias_dos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_preferencias_dos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/MetodoPago.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/MetodoPago.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_metodo_pago.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_metodo_pago.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +34,7 @@
     <session id="-1724159241">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.29" value="1" />
@@ -42,29 +42,30 @@
           <entry key="project.open.time.300" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.68" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.77" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="2" />
-          <entry key="java" value="77" />
+          <entry key="java" value="79" />
           <entry key="png" value="2" />
-          <entry key="xml" value="72" />
+          <entry key="xml" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="2" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="77" />
-          <entry key="XML" value="72" />
+          <entry key="JAVA" value="79" />
+          <entry key="XML" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="737" />
+          <entry key="java" value="773" />
           <entry key="txt" value="373" />
           <entry key="xml" value="527" />
         </counts>
@@ -72,7 +73,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="737" />
+          <entry key="JAVA" value="773" />
           <entry key="PLAIN_TEXT" value="373" />
           <entry key="XML" value="527" />
         </counts>
@@ -84,37 +85,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_preferencias_dos.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/PreferenciasTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
-              <folding>
-                <element signature="e#3344#3345#0" expanded="true" />
-                <element signature="e#3405#3406#0" expanded="true" />
-                <element signature="e#3469#3470#0" expanded="true" />
-                <element signature="e#3529#3530#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="494">
+              <caret line="88" column="5" selection-start-line="55" selection-start-column="8" selection-end-line="88" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/MetodoPago.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_metodo_pago.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="-1921">
+              <caret line="40" column="68" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -133,8 +127,6 @@
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_proximamente.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Proximamente.java" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/activity_metodo_pago.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/MetodoPago.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_menu.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Menu.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_sign_in.xml" />
@@ -152,10 +144,12 @@
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_preferencias_dos.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/PreferenciasTwo.java" />
         <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_metodo_pago.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/MetodoPago.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="672" />
     <option name="y" value="-8" />
     <option name="width" value="696" />
@@ -167,7 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -210,8 +203,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,14 +392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_metodo_pago.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="318" selection-start-line="318" selection-end-line="318" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_menu.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -504,13 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/MetodoPago.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -536,10 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="e#471#710#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -564,6 +539,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_preferencias_dos.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -574,22 +557,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/PreferenciasTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
-          <folding>
-            <element signature="e#3344#3345#0" expanded="true" />
-            <element signature="e#3405#3406#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-            <element signature="e#3529#3530#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="494">
+          <caret line="88" column="5" selection-start-line="55" selection-start-column="8" selection-end-line="88" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_metodo_pago.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-1921">
+          <caret line="40" column="68" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bookishbookshop/MetodoPago.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        <state relative-caret-position="782">
+          <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
         </state>
       </provider>
     </entry>
