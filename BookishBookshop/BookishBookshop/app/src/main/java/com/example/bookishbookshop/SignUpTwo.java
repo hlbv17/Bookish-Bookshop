@@ -22,7 +22,8 @@ import android.widget.Toast;
 
 public class SignUpTwo extends AppCompatActivity {
 
-    // Variables
+    /*
+    * ---Variables--------------------------------------------------------------------------------*/
     ImageView logo;
     ScrollView scrvSU2;
     Spinner spnrEStadoCivil;
@@ -31,6 +32,7 @@ public class SignUpTwo extends AppCompatActivity {
     CheckBox ckbTerminos, ckNoticias;
     ConstraintLayout btnAnterior, btnCrear;
     private boolean isFirstTime = true;
+    TextWatcher twDireccion, twContrasena, twCotrasenaC;
 
     /*
      * ---AutFit Variables-------------------------------------------------------------------------*/
@@ -97,37 +99,53 @@ public class SignUpTwo extends AppCompatActivity {
         });
 
         // EditText Direccion: normal background && clear error
-        edtxDireccion.setOnKeyListener(new View.OnKeyListener(){
+        twDireccion = new TextWatcher() {
             @Override
-            public boolean onKey(View view, int i, KeyEvent keyEvent) {
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+            }
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 edtxDireccion.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.registro_campos));
                 txtvDireccionR.setText(null);
-                return false;
             }
-        });
+            @Override
+            public void afterTextChanged(Editable editable) {
+            }
+        };
+        edtxDireccion.addTextChangedListener(twDireccion);
 
         // EditText Contrasena: normal background && clear error
-        edtxContrasena.setOnKeyListener(new View.OnKeyListener(){
+        twContrasena = new TextWatcher() {
             @Override
-            public boolean onKey(View view, int i, KeyEvent keyEvent) {
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+            }
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 edtxContrasena.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.registro_campos));
                 txtvContrasenaR.setText(null);
-                return false;
             }
-        });
+            @Override
+            public void afterTextChanged(Editable editable) {
+            }
+        };
+        edtxContrasena.addTextChangedListener(twContrasena);
 
         // EditText ContrasenaC: normal background && clear error
-        edtxContrasenaC.setOnKeyListener(new View.OnKeyListener(){
+        twCotrasenaC = new TextWatcher() {
             @Override
-            public boolean onKey(View view, int i, KeyEvent keyEvent) {
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+            }
+
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 edtxContrasenaC.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.registro_campos));
                 txtvContrasenaCR.setText(null);
-                return false;
             }
-        });
-
-
-
+            @Override
+            public void afterTextChanged(Editable editable) {
+            }
+        };
+        edtxContrasenaC.addTextChangedListener(twCotrasenaC);
 
 
         /*
@@ -137,8 +155,7 @@ public class SignUpTwo extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (esCorrecto () == true) {
-                    Intent newactivity = new Intent(SignUpTwo.this,ExitoRegistro.class);
-                    startActivity (newactivity);
+                   finish();
                 }
             }
         });
@@ -179,7 +196,6 @@ public class SignUpTwo extends AppCompatActivity {
     // Method: esCorrecto
     private boolean esCorrecto() {
         boolean output = true;
-
         if (spnrEStadoCivil.getSelectedItem().toString().equals("Seleccione")) {
             //Toast.makeText (getApplicationContext(), "Seleccione Estado Civil.",Toast.LENGTH_SHORT).show();
             spnrEStadoCivil.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.registro_campos_error));
@@ -228,7 +244,6 @@ public class SignUpTwo extends AppCompatActivity {
             Toast.makeText (getApplicationContext(), "Debe aceptar términos y condiciones.",Toast.LENGTH_SHORT).show();
             output = false;
         }
-
         return output;
     }
 
