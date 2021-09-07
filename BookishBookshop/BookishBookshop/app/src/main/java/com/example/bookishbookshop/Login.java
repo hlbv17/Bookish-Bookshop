@@ -45,6 +45,7 @@ public class Login extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent (v.getContext(), MainScreen.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -53,6 +54,7 @@ public class Login extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent (v.getContext(), MainScreen.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -61,6 +63,7 @@ public class Login extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent (v.getContext(), MainScreen.class);
                 startActivity(intent);
+                finish();
             }
         });
 
