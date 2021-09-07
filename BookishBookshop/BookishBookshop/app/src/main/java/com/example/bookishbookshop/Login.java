@@ -44,7 +44,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent (v.getContext(), MainScreen.class);
-                startActivityForResult(intent, 0);
+                startActivity(intent);
             }
         });
 
@@ -52,7 +52,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent (v.getContext(), MainScreen.class);
-                startActivityForResult(intent, 0);
+                startActivity(intent);
             }
         });
 
@@ -60,7 +60,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent (v.getContext(), MainScreen.class);
-                startActivityForResult(intent, 0);
+                startActivity(intent);
             }
         });
 
@@ -68,7 +68,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent (v.getContext(), SignIn.class);
-                startActivityForResult(intent, 0);
+                startActivity(intent);
             }
         });
 
@@ -76,7 +76,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent (v.getContext(), SignUp.class);
-                startActivityForResult(intent, 0);
+                startActivity(intent);
             }
         });
 

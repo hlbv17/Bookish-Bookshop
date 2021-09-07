@@ -162,8 +162,9 @@ public class SignUp extends AppCompatActivity {
         btnCancelar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent newactivity = new Intent(SignUp.this,Login.class);
-                startActivity (newactivity);
+                finish();
+                /*Intent newactivity = new Intent(SignUp.this,Login.class);
+                startActivity (newactivity);*/
             }
         });
 

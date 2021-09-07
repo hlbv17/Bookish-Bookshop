@@ -100,7 +100,7 @@
         app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.411">
+        app:layout_constraintVertical_bias="0.391">
 
         <ImageView
             android:id="@+id/ic_compra"
@@ -159,7 +159,7 @@
         app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.682">
+        app:layout_constraintVertical_bias="0.641">
 
         <ImageView
             android:id="@+id/ic_fav"
@@ -217,7 +217,7 @@
         app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.947">
+        app:layout_constraintVertical_bias="0.887">
 
         <ImageView
             android:id="@+id/ic_sugerencia"
@@ -333,7 +333,7 @@
         app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toEndOf="@+id/btnCompra"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.417">
+        app:layout_constraintVertical_bias="0.396">
 
         <ImageView
             android:id="@+id/ic_qr"
@@ -390,7 +390,7 @@
         app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toEndOf="@+id/btnFrases"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.672">
+        app:layout_constraintVertical_bias="0.632">
 
         <ImageView
             android:id="@+id/ic_categoria"
@@ -448,7 +448,7 @@
         app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toEndOf="@+id/btnSugerencias"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.948">
+        app:layout_constraintVertical_bias="0.887">
 
         <ImageView
             android:id="@+id/ic_deseo"

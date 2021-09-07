@@ -40,7 +40,8 @@ public class MetodoPago extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent (v.getContext(), MainScreen.class);
-                startActivityForResult(intent, 0);
+                startActivity(intent);
+                finish();
             }
         });
 

@@ -41,7 +41,7 @@ public class Preferencias extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent (v.getContext(), PreferenciasTwo.class);
-                startActivityForResult(intent, 0);
+                startActivity(intent);
             }
         });
 
@@ -49,7 +49,7 @@ public class Preferencias extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent (v.getContext(), PreferenciasTwo.class);
-                startActivityForResult(intent, 0);
+                startActivity(intent);
             }
         });
 

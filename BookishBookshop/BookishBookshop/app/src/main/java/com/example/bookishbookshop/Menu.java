@@ -43,6 +43,7 @@ public class Menu extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent (v.getContext(), MainScreen.class);
                 startActivityForResult(intent, 0);
+                finish();
             }
         });
 
@@ -105,7 +106,7 @@ public class Menu extends AppCompatActivity {
         Qr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = getPackageManager().getLaunchIntentForPackage("com.UGLibro.QR");
+                Intent intent = getPackageManager().getLaunchIntentForPackage("com.DefaultCompany.Prueba");
                 startActivity(intent);
             }
         });
