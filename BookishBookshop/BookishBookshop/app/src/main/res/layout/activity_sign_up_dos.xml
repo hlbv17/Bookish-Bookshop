@@ -274,8 +274,8 @@
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="46dp"
-                android:layout_marginLeft="46dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
                 android:layout_marginTop="535dp"
                 android:layout_marginBottom="284dp"
                 android:text="@string/txtTipPswd"
@@ -283,7 +283,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.011" />
+                app:layout_constraintVertical_bias="0.018" />
 
 
             <TextView

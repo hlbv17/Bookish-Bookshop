@@ -16,7 +16,7 @@ public class Proximamente extends AppCompatActivity {
         new Handler().postDelayed(new Runnable(){
             @Override
             public void run(){
-                Intent intent = new Intent(Proximamente.this, MainScreen.class);
+                Intent intent = new Intent(Proximamente.this, Menu.class);
                 startActivity(intent);
                 finish();
             }

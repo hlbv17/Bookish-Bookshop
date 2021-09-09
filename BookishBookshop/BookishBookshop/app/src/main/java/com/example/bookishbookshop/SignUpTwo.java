@@ -158,6 +158,8 @@ public class SignUpTwo extends AppCompatActivity {
             public void onClick(View view) {
                 if (esCorrecto () == true) {
                    finish();
+                   Intent newactivity = new Intent(SignUpTwo.this,ExitoRegistro.class);
+                   startActivity (newactivity);
                 }
             }
         });
@@ -166,8 +168,9 @@ public class SignUpTwo extends AppCompatActivity {
         btnAnterior.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent newactivity = new Intent(SignUpTwo.this,SignUp.class);
-                startActivity (newactivity);
+                onBackPressed();
+                /*Intent newactivity = new Intent(SignUpTwo.this,SignUp.class);
+                startActivity (newactivity);*/
             }
         });
 
